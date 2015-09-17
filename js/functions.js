@@ -35,8 +35,8 @@ function get_index(target){
 };
 
 function make_minus(target){
-	alert("make_minus(this)");
-	alert(this);
+	//alert("make_minus(this)");
+	alert(target);
 	function_loop_mouse_enter();
 	if (target.parentNode == game_unordered_list){
 		if (target.children.length == 0){
