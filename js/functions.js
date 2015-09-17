@@ -128,12 +128,12 @@ game_list_item[3].addEventListener('touchend', function(event){
      		}       			
 			if (start_swipe + threshold< end_swipe ){
 				alert("swipe right");	
-				this.remove(this);	
-				//make_minus(this.id);	
+				//this.remove(this);	
+				make_minus(this.id);	
 			}
 			if (start_swipe > end_swipe + threshold){
 				alert('swipe left')
 			}
 });
 
-alert('MakeMinusthis3');
+alert('alert');
